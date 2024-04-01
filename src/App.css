@@ -1,0 +1,134 @@
+body {
+  background-color: #070F2B;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  justify-content: left;
+  align-items: left;
+  background-color: #1B1A55;
+  /* border-bottom: 2px solid #606060; */
+}
+
+h1 {
+  width: fit-content;
+  font-size: 3em;
+  margin: 0.5em;
+  padding: 0.5em;
+  background-color: #535C91;
+  border: 2px solid white;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+}
+
+#newest {
+  font-size: 2em;
+  animation: soft-glow 2s alternate infinite cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+@keyframes soft-glow {
+  0% {
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 0.75);
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-flow: column;
+  margin: 0;
+}
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+}
+
+.music-section {
+  width: calc(90% - 20px);
+  margin: 10px;
+}
+
+iframe {
+  margin: 10px;
+}
+
+.soundcloud {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+
+}
+
+.soundcloud-links {
+  background-color: #2849db;
+  color: white !important;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 1.5em;
+  padding: 16px;
+  border-radius: 12px;
+  transition: 300ms ease-in-out;
+}
+
+
+.soundcloud-links:hover {
+  background-color: #2d53f8;
+
+}
+
+.soundcloud-links:active {
+  background-color: #223ebb;
+
+}
+/* .soundcloud-links:visited {
+  background-color: #503fe2;
+}
+
+.soundcloud-links:visited:hover {
+  background-color: #5d4bff;
+
+}
+
+.soundcloud-links:visited:active {
+  background-color: #3f32b3;
+
+} */
+
+
+
+footer {
+  height: 100px;
+  border-top: 1px solid #606060;
+  margin-top: 80px;
+}
+
+#footer-text {
+  font-size: 0.75em;
+  color: #888;
+  margin: 20px;
+}
+
+a {
+  color: #438bf0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #5443f0;
+}
